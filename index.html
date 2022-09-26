@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>
+    Imersão Dev - Aula 08
+  </title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">Super Trunfo Divas do Metal</h1>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear Carta</button>
+    <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+    <button onclick="proximaRodada()" id="btnRodada">Próxima Rodada</button>
+    <form id="form">
+      <h2>Escolha o seu atributo</h2>
+      <p class=paragrafo1>Ganha quem fizer 5 pontos</p>
+      <div id="novo-jogo"></div>
+      <div class="wrapper">
+        <div>
+          <div class="mensagem-responsivo">
+            <p> Role para baixo para ver ambas as cartas e uma surpresa no rodapé</p>
+          </div>
+          <div class="jogador" id="pJogador"></div>
+          <div id="carta-jogador">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div class="maquina" id="pMaquina"></div>
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <div id="resultado"></div>
+    </form>
+    <p id="musica"> </p>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2UF8cUYS5YQalWZ15N9oVv?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
