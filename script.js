@@ -155,7 +155,7 @@ let carta23 = {
 };
 
 let carta24 = {
-  nome: "Alyssa White Gluzz",
+  nome: "Alyssa White Gluz",
   imagem:
     "https://www.netrock.com.br/content/uploads/photos/2021/07/netrock_f19c99702513faad79ddb20dc8df12b6.jpg",
   atributos: { vocal: 8, presenca: 9, visual: 9 },
