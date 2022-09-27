@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
   min-height: 854px;
@@ -15,7 +17,7 @@ body {
 }
 
 .page-title {
-  font-family: "Edwardian Script ITC", script;
+  font-family: "Pinyon Script", cursive;
   font-size: 72px;
   color: #ffffff;
   margin: 5px 0;
@@ -80,14 +82,14 @@ h2 {
 }
 
 .carta-status input {
-  margin: 20px 11px;
+  margin: 20px 10px;
 }
 
 .resultado-final {
   color: white;
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weigth: bolder;
   padding: 1rem;
   border: 2px solid black;
   background-color: black;
