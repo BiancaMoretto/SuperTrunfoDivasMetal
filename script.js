@@ -288,6 +288,11 @@ function jogar() {
   var resultadoFinalHTML = document.getElementById("resultado");
   var pontuacaoFinalJogador = document.getElementById("pJogador");
   var pontuacaoFinalMaquina = document.getElementById("pMaquina");
+  
+   if (!atributoSelecionado) {
+    alert("Escolha um atributo");
+    return;
+  }
 
   if (
     cartaJogador.atributos[atributoSelecionado] >
